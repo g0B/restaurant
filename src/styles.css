@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-button {
+    padding: 10px 20px;
+    background-color: #444;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+    background-color: #555;
+}
+
+.home-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px; /* Space between the tiles */
+    align-items: center;
+    flex-direction: column;
+    background-color: #F3F4F6;
+    min-height: 100vh; /* Ensures the container takes full height of the viewport */
+}
+
+.about-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px; /* Space between the tiles */
+    align-items: center;
+    flex-direction: column;
+    background-color: #E6EDE3;
+    min-height: 100vh; /* Ensures the container takes full height of the viewport */
+}
+
+.menu-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px; /* Space between the tiles */
+    align-items: center;
+    flex-direction: column;
+    background-color: #F7F5F2;
+    min-height: 100vh; /* Ensures the container takes full height of the viewport */
+}
